@@ -37,7 +37,7 @@ def test_kyc():
     close_kyc_modal.close_kyc_modal_exit_button_text()
     close_kyc_modal.close_kyc_modal_exit_button()
 
-#test###
+#test2###
 
 
     login_page_button = LoginPage(driver)
