@@ -35,6 +35,7 @@ def test_kyc():
 
 
 
+
     create_account_info_page.close_button_kyc()
     close_kyc_modal.close_kyc_modal_exit_button_text()
     close_kyc_modal.close_kyc_modal_exit_button()
