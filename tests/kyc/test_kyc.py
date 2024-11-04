@@ -44,7 +44,7 @@ def test_kyc():
 
     select_uat = LoginPage(driver)
     select_uat.select_uat()
-
+    ################
 
     # Close the session after the test
     print(f"Waiting ---> {driver}")
