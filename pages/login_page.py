@@ -16,6 +16,7 @@ class LoginPage(BasePage):
         )
         login_page_button.click()
 
+
     def select_env_menu(self):
         select_env_menu = WebDriverWait(self.driver, 3).until(
             EC.presence_of_element_located((AppiumBy.ACCESSIBILITY_ID, 'Brand Blu Logo EN'))
