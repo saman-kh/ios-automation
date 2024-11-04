@@ -6,6 +6,10 @@ device_configs = {
         "deviceName": "iPhone 12",
         "udid": "00008101-001C58560106001E",
         "automationName": "XCUITest",
-        "bundleId": "com.blubank.app-dev"
+        "bundleId": "com.blubank.app-dev",
+        "showXcodeLog": True,
+        "usePrebuiltWDA": True,
+        "xcodeOrgId": "A5ZDXQH7T9",
+        "xcodeSigningId": "iOS Developer",
     }
 }

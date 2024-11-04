@@ -8,7 +8,7 @@ from pages.kyc.close_kyc_modal import CloseKycModal
 
 class CrateAccountInfoPage(BasePage):
     def close_button_kyc(self):
-        close_button = WebDriverWait(self.driver,10).until(
+        close_button = WebDriverWait(self.driver,3).until(
             EC.presence_of_element_located((AppiumBy.IOS_CLASS_CHAIN,'**/XCUIElementTypeNavigationBar[`name == "Blu.KYCGetStatusView"`]/XCUIElementTypeButton[1]'))
         )
         close_button.click()
